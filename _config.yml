@@ -7,7 +7,7 @@ ios_app_country                           : us                                  
 
 appstore_link                             :                                           # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
 playstore_link                            :                                           # Enter Google Play Store URL.
-presskit_download_link                    : https://emilbaehr.com                                          # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file). 
+presskit_download_link                    :                                          # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file).
                                                                                       # Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
 
 app_icon                                  : assets/appicon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
@@ -15,13 +15,13 @@ app_name                                  : NativeChatGPT # Automatically popula
 app_price                                 :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_description                           : Write a short tagline for your app.
 
-enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
+enable_smart_app_banner                   : false                                      # Set to true to show a smart app banner at top of page on mobile devices.
 
 
 
 # Information About Yourself
 your_name                                 : Purav Manot
-your_link                                 : https://pmanot.com
+your_link                                 : https://twitter.com/puravmanot
 your_city                                 : Bangalore
 email_address                             : manot.purav@gmail.com
 facebook_username                         :                                           
@@ -35,24 +35,24 @@ youtube_username                          :
 # Feature List                            Edit, add or remove features to be presented.
 features                                  :
 
-  - title                                 : GitHub Pages Jekyll Theme
-    description                           : Designed for GitHub Pages. Fork. Edit _config.yml. Upload screenshot/video. Push to gh-pages branch. Voilá!
-    fontawesome_icon_name                 : magic
+  - title                                 : Built for Messaging
+    description                           : Designed to look and feel like the Messages app.
+    fontawesome_icon_name                 : comment-dots
     
-  - title                                 : iPhone Device Preview
-    description                           : Preview your app in the context of an iPhone device. Five different device colors included.
-    fontawesome_icon_name                 : mobile
-
-  - title                                 : Video Support
-    description                           : Preview app video on the iPhone device simply by placing your video files in the videos folder.
-    fontawesome_icon_name                 : play-circle
-
-  - title                                 : Automatic Icon and Metadata
-    description                           : Enter iOS app ID in the _config.yml file to automatically fetch app icon, price and App Store Link.
+  - title                                 : Automatic Syncing
+    description                           : Automatically syncs all your chats with ChatGPT and saves them locally.
     fontawesome_icon_name                 : sync
 
-  - title                                 : Easy to Tweak
-    description                           : Tweak accent color, images, icons and transparency via the _config.yml file. No HTML/CSS needed.
+  - title                                 : Prompt Templates
+    description                           : Includes a curated collection of 100+ customizeable prompt templates.
+    fontawesome_icon_name                 : play-circle
+
+  - title                                 : Export Chats
+    description                           : Allows exporting and sharing chats as Plain-Text or JSON.
+    fontawesome_icon_name                 : share
+
+  - title                                 : Dark Mode Support
+    description                           : Looks beautiful in Dark Mode and Light Mode.
     fontawesome_icon_name                 : adjust
   
   - title                                 : Feature List
@@ -88,7 +88,7 @@ cover_overlay_transparency                : 0
 
 device_color                              : black                                     # Set to: blue, black, yellow, coral or white.
 
-body_background_color                     : "#000000"
+body_background_color                     : "#0f0f0f"
 
 link_color                                : "#1d63ea"
 
