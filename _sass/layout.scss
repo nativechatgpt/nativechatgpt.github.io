@@ -39,7 +39,7 @@
 	padding-left: 15px;
 	padding-right: 15px;
 	grid-template-columns: repeat(12, 1fr);
-	grid-template-rows: 876px auto auto auto;
+	grid-template-rows: 876px auto auto;
 	grid-column-gap: 30px;
 	grid-template-areas:
 		"p p p p p i i i i i i i"
@@ -55,7 +55,7 @@
 @media only screen and (max-width: 768px) {
 
 	.container {					// Set up the container for the site content
-		grid-template-rows: 80px 811px auto auto;
+		grid-template-rows: 811px auto auto;
 	}
 }
 
