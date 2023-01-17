@@ -10,8 +10,8 @@ playstore_link                            :                                     
 presskit_download_link                    : https://emilbaehr.com                                          # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file). 
                                                                                       # Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
 
-app_icon                                  : # assets/appicon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
-app_name                                  : NativeChatGPT                                         # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_icon                                  : assets/appicon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
+app_name                                  : NativeChatGPT # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_price                                 :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_description                           : Write a short tagline for your app.
 
@@ -20,14 +20,14 @@ enable_smart_app_banner                   : true                                
 
 
 # Information About Yourself
-your_name                                 : Emil Baehr                                
-your_link                                 : https://emilbaehr.com                     
-your_city                                 : Copenhagen                                
-email_address                             : emil.baehr@gmail.com
+your_name                                 : Purav Manot
+your_link                                 : https://pmanot.com
+your_city                                 : Bangalore
+email_address                             : manot.purav@gmail.com
 facebook_username                         :                                           
-instagram_username                        : ebaehr
-twitter_username                          : ebaehr
-github_username                           : emilbaehr
+instagram_username                        : the_real_fuckup
+twitter_username                          : puravmanot
+github_username                           : pmanot
 youtube_username                          :
 
 
@@ -80,11 +80,11 @@ features                                  :
 # Theme Settings
 topbar_color                              : "#000000"
 topbar_transparency                       : 0.1
-topbar_title_color                        : "#000000"
+topbar_title_color                        : "#ffffff"
 
-cover_image                               : assets/headerimage.png                    # Replace with alternative image path or image URL.
-cover_overlay_color                       : "#363b3d"
-cover_overlay_transparency                : 0.8
+cover_image                               :                    # Replace with alternative image path or image URL.
+cover_overlay_color                       : "#000000"
+cover_overlay_transparency                : 0
 
 device_color                              : black                                     # Set to: blue, black, yellow, coral or white.
 
@@ -96,14 +96,14 @@ app_title_color                           : "#ffffff"
 app_price_color                           : "#ffffff"
 app_description_color                     : "#ffffff"
 
-feature_title_color                       : "#000000"
+feature_title_color                       : "#ffffff"
 feature_text_color                        : "#666666"
 
 feature_icons_foreground_color            : "#1d63ea"
-feature_icons_background_color            : "#e6e6e6"
+feature_icons_background_color            : "#1e1e1e"
 
 social_icons_foreground_color             : "#666666"
-social_icons_background_color             : "#e6e6e6"
+social_icons_background_color             : "#1e1e1e"
 
 footer_text_color                         : "#666666"
 
