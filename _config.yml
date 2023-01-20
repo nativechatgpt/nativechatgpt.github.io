@@ -1,5 +1,5 @@
 #page title
-page_title                                :                                           # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
+page_title                                : NativeChatGPT                             # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
 
 # App Info
 ios_app_id                                : 1234793120                                # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
@@ -13,7 +13,7 @@ presskit_download_link                    :                                     
 app_icon                                  : assets/appicon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
 app_name                                  : NativeChatGPT # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_price                                 :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_description                           : Write a short tagline for your app.
+app_description                           : The unnoffical iOS app for ChatGPT.
 
 enable_smart_app_banner                   : false                                      # Set to true to show a smart app banner at top of page on mobile devices.
 
@@ -39,37 +39,25 @@ features                                  :
     description                           : Designed to look and feel like the Messages app.
     fontawesome_icon_name                 : comment-dots
     
-  - title                                 : Automatic Syncing
-    description                           : Automatically syncs all your chats with ChatGPT and saves them locally.
-    fontawesome_icon_name                 : sync
-
+  - title                                 : Search Support
+    description                           : Search through all your chats and find conversations with ease.
+    fontawesome_icon_name                 : search
+    
   - title                                 : Prompt Templates
     description                           : Includes a curated collection of 100+ customizeable prompt templates.
-    fontawesome_icon_name                 : play-circle
-
+    fontawesome_icon_name                 : star
+    
   - title                                 : Export Chats
-    description                           : Allows exporting and sharing chats as Plain-Text or JSON.
+    description                           : Easily share your chats as Plain-Text or JSON.
     fontawesome_icon_name                 : share
 
-  - title                                 : Dark Mode Support
-    description                           : Looks beautiful in Dark Mode and Light Mode.
-    fontawesome_icon_name                 : adjust
+  - title                                 : Automatic Sync
+    description                           : Automatically syncs all your chats with ChatGPT and saves them locally.
+    fontawesome_icon_name                 : sync
   
-  - title                                 : Feature List
-    description                           : Add features (like this one) to your site via the _config.yml file. No HTML/CSS needed.
-    fontawesome_icon_name                 : star
-
-  - title                                 : Smart App Banner
-    description                           : Display a smart app banner on iOS devices.
-    fontawesome_icon_name                 : arrow-alt-circle-down
-
-  - title                                 : Social Links
-    description                           : Easily add social media accounts and contact info in the footer via the _config.yml file. No HTML/CSS needed.
-    fontawesome_icon_name                 : link
-
-  - title                                 : FontAwesome Support
-    description                           : Pick custom Font Awesome icons for the feature list via the _config.yml file. No HTML/CSS needed.
-    fontawesome_icon_name                 : info-circle
+  - title                                 : Customizeable Icons
+    description                           : Add a unique Icon or Emoji to your saved chats.
+    fontawesome_icon_name                 : smile
 
   - title                                 : # New Feature Title
     description                           : # New Feature Description
@@ -86,7 +74,7 @@ cover_image                               :                    # Replace with al
 cover_overlay_color                       : "#000000"
 cover_overlay_transparency                : 0
 
-device_color                              : black                                     # Set to: blue, black, yellow, coral or white.
+device_color                              : white                                     # Set to: blue, black, yellow, coral or white.
 
 body_background_color                     : "#000000"
 
